@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply antialiased;
+  }
+}
+
+.monaco-editor {
+  padding-top: 0.5rem;
+}
+
+.prose pre {
+  @apply bg-gray-100 dark:bg-gray-800;
+}
+
+.prose img {
+  @apply max-w-full h-auto;
+}
+
+.prose {
+  @apply max-w-none;
+}
